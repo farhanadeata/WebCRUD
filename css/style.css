@@ -1,0 +1,30 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+}
+
+.link a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.link a:hover .bi-facebook{
+    color: #3b5998;
+}
+
+.link a:hover .bi-github{
+    color: #ccc;
+}
+
+.link a:hover .bi-instagram{
+    color: #C13584;
+}
+
+.link a:hover .bi-twitter{
+    color: #1DA1F2;
+}
