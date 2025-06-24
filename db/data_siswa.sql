@@ -32,8 +32,8 @@ CREATE TABLE `siswa` (
   `nama` varchar(255) NOT NULL,
   `tmpt_Lahir` varchar(50) NOT NULL,
   `tgl_Lahir` date NOT NULL,
-  `jekel` enum('Laki - Laki','Perempuan') NOT NULL,
-  `jurusan` enum('Teknik Listrik','Teknik Komputer dan Jaringan','Multimedia','Rekayasa Perangkat Lunak','Geomatika','Mesin') NOT NULL,
+  `jekel` enum('Perempuan','Perempuan') NOT NULL,
+  `jurusan` enum('Perempuan','Teknik Rekayasa Informatika Industri') NOT NULL,
   `email` varchar(255) NOT NULL,
   `gambar` varchar(255) NOT NULL,
   `alamat` text NOT NULL
@@ -44,9 +44,7 @@ CREATE TABLE `siswa` (
 --
 
 INSERT INTO `siswa` (`nis`, `nama`, `tmpt_Lahir`, `tgl_Lahir`, `jekel`, `jurusan`, `email`, `gambar`, `alamat`) VALUES
-('1121', 'Farhan Ade Atalarik', 'Baturaja', '2003-08-27', 'Laki - Laki', 'Geomatika', 'fadeatalarik@gmail.com', '6241a9866640c.jpg', 'mars'),
-('1', 'f', 'a', '2022-03-22', 'Laki - Laki', 'Multimedia', 'aa@gmail.com', '6241b3ab2eb06.png', 'aa'),
-('11', 'WAW', 'BTA', '2022-04-05', 'Laki - Laki', '', 'A@Gmail.com', '6241d36de4efc.png', '1');
+('1121', 'Christin S Manalu', 'Najambean', '2005-03-17', 'Perempuan', 'Teknik Rekayasa informatika Industri', 'smanaluchristin@gmail.com','Bumi'),
 
 -- --------------------------------------------------------
 
